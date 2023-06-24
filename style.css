@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+:root{
+    font-family: 'Poppins', sans-serif;
+    color:#023b2d;
+}
+
+.hero {
+    background-image: url("/01EG-Web-Home-Desktop.jpg");
+    width: 1900px;
+    height: 540px;
+}
+.nav{
+    width:1900px;
+    height:80px;
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+}
+.nav-left{
+    margin-left: 60px;
+    display: grid;
+    /* grid-template-columns: 1fr,5fr; */
+    width:250px;
+    justify-items: center;
+    align-items: center;
+   
+}
+.logo{
+ grid-column: 1;
+ justify-self: center;
+
+}
+  
+.logo1{
+    grid-column: 2;
+    justify-self: end;
+}
+
+.nav-right{
+    margin-right: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:1650px;
+}
+.nav-right a {
+    list-style: none;
+    /* grid-column: 2; */
+    text-decoration: none;
+    color: #023b2d;
+    font-size: 14px;
+    /* opacity: 80%; */
+    margin: 0 30px;
+    height: 50px;
+}
+
+.nav-right-buscar {
+    height: 60px;
+    border-radius: 50%;
+    border:  #023b2d solid 1px;
+}
